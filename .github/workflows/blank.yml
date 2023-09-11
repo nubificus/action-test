@@ -31,7 +31,7 @@ jobs:
         with:
           repository: nubificus/kata-containers
           #token: ${{ secrets.nbfc_priv_secret }}
-          ref: rs-vaccel-fusion
+          ref: rs-vaccel-fusion-git
           submodules: recursive
         
       # Runs a set of commands using the runners shell
